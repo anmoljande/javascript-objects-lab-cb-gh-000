@@ -19,3 +19,10 @@ function deleteFromObjectByKey(object, key)
   delete pinky[key];
   return pinky;
 }
+
+
+function destructivelyDeleteFromObjectByKey(object, key)
+{
+  
+  delete object[key];
+}
